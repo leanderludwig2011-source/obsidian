@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "auto_obsidian_surround",
+  "version": "${version}",
+  "name": "Auto Obsidian Surround",
+  "description": "Press G to try placing an obsidian shell around and over yourself without replacing the floor beneath you.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "de.obsidiansurround.AutoObsidianSurroundClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
